@@ -1,6 +1,32 @@
-{
-    "type": "MultiPolygon",
-    "coordinates": [
-        
-    ]
-}
+[
+    {
+        "Name": "Nawapon",
+        "Surname": "Sangsiri",
+        "Date of Birth": "15/4/2002",
+        "Nationality": "German",
+        "Departure place": "Germany",
+        "Departure time": "14/11/2021",
+        "Destination": "England",
+        "Arrival time": "14/11/2021",
+        "Country that you had visited in previous 10 days": false,
+        "Type of visa (resident / student / travelling)": 3,
+        "Vaccination status": true
+        "result": 1
+    },
+    
+    {
+        "Name": "",
+        "Surname": "",
+        "Date of Birth": "",
+        "Nationality": "",
+        "Departure place": "",
+        "Departure time": "",
+        "Destination": "",
+        "Arrival time": "",
+        "Country that you had visited in previous 10 days": "",
+        " Type of visa (resident / student / travelling)": ,
+        "Vaccination status":
+        "result": 
+    }
+
+]

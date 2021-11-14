@@ -14,6 +14,11 @@
 		7AEF9E2B27401D8D00B96FF3 /* Hello_ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9E2A27401D8D00B96FF3 /* Hello_ColorTests.swift */; };
 		7AEF9E3527401D8D00B96FF3 /* Hello_ColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9E3427401D8D00B96FF3 /* Hello_ColorUITests.swift */; };
 		7AEF9E3727401D8D00B96FF3 /* Hello_ColorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9E3627401D8D00B96FF3 /* Hello_ColorUITestsLaunchTests.swift */; };
+		7AEF9E7D27402AE600B96FF3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9E7C27402AE600B96FF3 /* CircleImage.swift */; };
+		7AEF9E7F27402CCC00B96FF3 /* airplane_pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9E7E27402CCC00B96FF3 /* airplane_pic.swift */; };
+		7AEF9EBE2740429100B96FF3 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9EBD2740429100B96FF3 /* Document.swift */; };
+		7AEF9EC0274048A100B96FF3 /* InputUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9EBF274048A100B96FF3 /* InputUI.swift */; };
+		7AEF9EC4274054EC00B96FF3 /* CreateNewDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEF9EC3274054EC00B96FF3 /* CreateNewDestination.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		7AEF9E3027401D8D00B96FF3 /* Hello ColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello ColorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEF9E3427401D8D00B96FF3 /* Hello_ColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_ColorUITests.swift; sourceTree = "<group>"; };
 		7AEF9E3627401D8D00B96FF3 /* Hello_ColorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_ColorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AEF9E7C27402AE600B96FF3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		7AEF9E7E27402CCC00B96FF3 /* airplane_pic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airplane_pic.swift; sourceTree = "<group>"; };
+		7AEF9EBC2740401400B96FF3 /* flight.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; name = flight.geojson; path = Assets.xcassets/flight.geojson; sourceTree = "<group>"; };
+		7AEF9EBD2740429100B96FF3 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		7AEF9EBF274048A100B96FF3 /* InputUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputUI.swift; sourceTree = "<group>"; };
+		7AEF9EC3274054EC00B96FF3 /* CreateNewDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewDestination.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +107,13 @@
 			children = (
 				7AEF9E1927401D8B00B96FF3 /* Hello_ColorApp.swift */,
 				7AEF9E1B27401D8B00B96FF3 /* ContentView.swift */,
+				7AEF9EC3274054EC00B96FF3 /* CreateNewDestination.swift */,
+				7AEF9EBD2740429100B96FF3 /* Document.swift */,
+				7AEF9EBF274048A100B96FF3 /* InputUI.swift */,
+				7AEF9EBC2740401400B96FF3 /* flight.geojson */,
 				7AEF9E1D27401D8D00B96FF3 /* Assets.xcassets */,
+				7AEF9E7C27402AE600B96FF3 /* CircleImage.swift */,
+				7AEF9E7E27402CCC00B96FF3 /* airplane_pic.swift */,
 				7AEF9E1F27401D8D00B96FF3 /* Preview Content */,
 			);
 			path = "Hello Color";
@@ -257,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AEF9E7F27402CCC00B96FF3 /* airplane_pic.swift in Sources */,
+				7AEF9EC4274054EC00B96FF3 /* CreateNewDestination.swift in Sources */,
 				7AEF9E1C27401D8B00B96FF3 /* ContentView.swift in Sources */,
+				7AEF9EC0274048A100B96FF3 /* InputUI.swift in Sources */,
 				7AEF9E1A27401D8B00B96FF3 /* Hello_ColorApp.swift in Sources */,
+				7AEF9E7D27402AE600B96FF3 /* CircleImage.swift in Sources */,
+				7AEF9EBE2740429100B96FF3 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
